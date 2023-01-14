@@ -1,0 +1,30 @@
+{
+  "Rotor": {
+    "output": 4,
+    "materials": {
+      "Iron Rod": 20,
+      "Screw": 100
+    }
+  },
+  "Iron Rod": {
+    "output": 15,
+    "materials": {
+      "Iron Ingot": 15
+    }
+  },
+  "Screw": {
+    "output": 40,
+    "materials": {
+      "Iron Rod": 10
+    }
+  },
+  "Iron Ingot": {
+    "output": 30,
+    "materials": {
+      "Iron Ore": 30
+    }
+  },
+  "Iron Ore": {
+    "output": 1
+  }
+}
