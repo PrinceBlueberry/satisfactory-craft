@@ -1,6 +1,7 @@
 {
   "Rotor": {
     "output": 4,
+    "building": "assembler",
     "materials": {
       "Iron Rod": 20,
       "Screw": 100
@@ -8,23 +9,27 @@
   },
   "Iron Rod": {
     "output": 15,
+    "building": "constructor",
     "materials": {
       "Iron Ingot": 15
     }
   },
   "Screw": {
     "output": 40,
+    "building": "constructor",
     "materials": {
       "Iron Rod": 10
     }
   },
   "Iron Ingot": {
     "output": 30,
+    "building": "smelter",
     "materials": {
       "Iron Ore": 30
     }
   },
   "Iron Ore": {
-    "output": 1
+    "output": 1,
+    "building": "Miner"
   }
 }
