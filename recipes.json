@@ -30,6 +30,37 @@
   },
   "Iron Ore": {
     "output": 1,
-    "building": "Miner"
+    "building": "miner"
+  },
+  "Modular Frame": {
+    "output": 2,
+    "building": "assembler",
+    "materials": {
+      "Reinforced Iron Plate": 3,
+      "Iron Rod": 12
+    }
+  },
+  "Reinforced Iron Plate": {
+    "output": 5,
+    "building": "assembler",
+    "materials": {
+      "Iron Plate": 30,
+      "Screw": 60
+    }
+  },
+  "Iron Plate": {
+    "output": 20,
+    "building": "constructor",
+    "materials": {
+      "Iron Ingot": 30
+    }
+  },
+  "Motor": {
+    "output": 5,
+    "building": "assembler",
+    "materials": {
+      "Rotor": 10,
+      "Stator": 10
+    }
   }
 }

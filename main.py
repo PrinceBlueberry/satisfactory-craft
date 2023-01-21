@@ -54,6 +54,7 @@ if __name__ == "__main__":
     # for making 8 rotors per minute, expect result of 90 materials (Iron Ore) per minute
     # for making 8 rotors per minute, expect result of ......?
 
+    print(f'In order to make "{want}" at a rate of {rate} per minute, you need: ')
     print('Materials (items per minute): ')
     print(get_ingredients_for(want, rate))
     print('Buildings: ')
