@@ -43,14 +43,15 @@ def get_buildings_for(want_name, want_rate):
 file_recipes = 'recipes.json'
 
 basic_materials = ['Iron Ore', 'Copper Ore']
+basic_materials = ['Iron Ore', 'Copper Ore', 'Limestone', 'Coal']
 basic_machines = ['Miner']
 
 if __name__ == "__main__":
     with open(file_recipes) as fin:
         recipes = json.load(fin)
 
-    want = 'Rotor'
-    rate = 8
+    want = 'Heavy Modular Frame'
+    rate = 2
     # for making 8 rotors per minute, expect result of 90 materials (Iron Ore) per minute
     # for making 8 rotors per minute, expect result of ......?
 

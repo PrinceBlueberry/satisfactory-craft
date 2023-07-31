@@ -32,6 +32,13 @@
     "output": 1,
     "building": "miner"
   },
+  "Concrete": {
+    "output": 1,
+    "building": "constructor",
+    "materials": {
+      "Limestone": 3
+    }
+  },
   "Modular Frame": {
     "output": 2,
     "building": "assembler",
@@ -61,6 +68,46 @@
     "materials": {
       "Rotor": 10,
       "Stator": 10
+    }
+  },
+  "Steel Ingot": {
+    "output": 3,
+    "building": "foundry",
+    "materials": {
+      "Iron Ore": 3,
+      "Coal": 3
+    }
+  },
+  "Steel Pipe": {
+    "output": 2,
+    "building": "constructor",
+    "materials": {
+      "Steel Ingot": 3
+    }
+  },
+  "Encased Industrial Beam": {
+    "output": 1,
+    "building": "assembler",
+    "materials": {
+      "Steel Beam": 4,
+      "Concrete": 5
+    }
+  },
+  "Steel Beam": {
+    "output": 1,
+    "building": "constructor",
+    "materials": {
+      "Steel Ingot": 4
+    }
+  },
+  "Heavy Modular Frame": {
+    "output": 1,
+    "building": "manufacturer",
+    "materials": {
+      "Screw": 100,
+      "Encased Industrial Beam": 5,
+      "Steel Pipe": 15,
+      "Modular Frame": 5
     }
   }
 }
