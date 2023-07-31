@@ -27,7 +27,7 @@ def get_buildings_for(want_name, want_rate):
     :param want_rate: desired output rate in items per minute.
     :return: the buildings that need to be built.
     """
-
+    # TODO: I think this should include the production rate of the building.
     building_and_recipe = f"{recipes[want_name]['building']}: {want_name}"
     buildings_required = want_rate / recipes[want_name]['output']
     buildings = collections.Counter({building_and_recipe: buildings_required})
@@ -42,7 +42,6 @@ def get_buildings_for(want_name, want_rate):
 
 file_recipes = 'recipes.json'
 
-basic_materials = ['Iron Ore', 'Copper Ore']
 basic_materials = ['Iron Ore', 'Copper Ore', 'Limestone', 'Coal']
 basic_machines = ['Miner']
 
